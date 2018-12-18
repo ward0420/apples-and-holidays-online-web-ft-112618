@@ -1,7 +1,6 @@
 require 'pry'
 
 def second_supply_for_fourth_of_july(holiday_hash)
-  binding.pry
   holiday_hash[:summer][:fourth_of_july][1]
   # given that holiday_hash looks like this:
   # {
